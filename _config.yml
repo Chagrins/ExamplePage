@@ -66,3 +66,8 @@ exclude:
   - spec/
   - tmp
   - .rspec
+
+callouts:
+  warning:
+    title: Warning
+    color: yellow
