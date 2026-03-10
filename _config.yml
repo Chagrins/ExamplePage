@@ -29,7 +29,7 @@ baseurl: /ExamplePage/ # the subpath of your site, e.g. /blog
 url: https://chagrins.github.io/ExamplePage/ # the base hostname & protocol for your site, e.g. http://example.com
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Template Repository: https://github.com/Chagrins/ExamplePage/
 
 defaults:
   - scope:
@@ -41,7 +41,7 @@ defaults:
 color_scheme: dark
 
 # Build settings
-# theme: just-the-docs
+theme: just-the-docs
 remote_theme: just-the-docs
 plugins:
   - jekyll-feed
