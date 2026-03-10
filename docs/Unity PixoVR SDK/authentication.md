@@ -1,17 +1,11 @@
 ---
-title: Getting Started
+title: Authentication
 parent: Unity - PixoVR SDK
 nav_order: 3
 ---
 
 # Authentication and Authorization
 {: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ---
 
