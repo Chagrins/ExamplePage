@@ -10,4 +10,4 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.4.1"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "just-the-docs"
+gem "just-the-docs", "0.12.0" # pinned to the current release
