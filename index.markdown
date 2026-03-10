@@ -11,5 +11,3 @@ permalink: /
 
 Get your project connect to the PixoVR Platform!
 {: .fs-6 .fw-300 }
-
----
