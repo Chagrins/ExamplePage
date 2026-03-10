@@ -6,7 +6,7 @@ description: "Documentation for the Unity PixoVR SDK"
 permalink: /
 ---
 
-# Focus on writing good documentation
+# PixoVR Documentation!
 {: .fs-9 }
 
 Get your project connect to the PixoVR Platform!

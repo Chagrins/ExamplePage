@@ -56,4 +56,11 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
+
 color_scheme: dark
