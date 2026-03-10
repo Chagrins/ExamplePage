@@ -1,6 +1,15 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
+title: Home
 layout: home
+nav_order: 1
+description: "Documentation for the Unity PixoVR SDK"
+permalink: /
+---
+
+# Focus on writing good documentation
+{: .fs-9 }
+
+Get your project connect to the PixoVR Platform!
+{: .fs-6 .fw-300 }
+
 ---

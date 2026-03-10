@@ -1,4 +1,19 @@
+---
+title: Getting Started
+parent: Unity - PixoVR SDK
+nav_order: 3
+---
+
 # Authentication and Authorization
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 When you authenticate against the platform, you'll also need to authorize that the user has access to the content within this module.
 By default, both of these things are accomplished once authentication occurs.

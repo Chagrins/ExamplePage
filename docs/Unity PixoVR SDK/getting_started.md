@@ -1,15 +1,19 @@
 ---
-layout: Default
+title: Getting Started
+parent: Unity - PixoVR SDK
+nav_order: 2
 ---
 
-# Getting started with the Unity PixoVR SDK!
+# Getting Started
+{: .no_toc }
 
-This is a Unity plugin which implements the PixoVR Platform API, supporting Unity 2020.1
+## Table of contents
+{: .no_toc .text-delta }
 
-Communication to the PixoVR Platform Server uses REST https JSON requests which follow the xAPI Standard. Below are some useful links.
+1. TOC
+{:toc}
 
-    [SDK Github Repo](https://github.com/PixoVR/com.pixovr.apexunitysdk)
-    [xAPI Spec](https://github.com/adlnet/xAPI-Spec)
+---
 
 ## Understanding xAPI and TinCan.NET
 
