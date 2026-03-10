@@ -27,8 +27,18 @@ description: >- # this means to ignore newlines until "baseurl:"
 domain: chagrins.github.io/ExamplePage/
 baseurl: /ExamplePage/ # the subpath of your site, e.g. /blog
 url: https://chagrins.github.io/ExamplePage/ # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-# github_username:  jekyll
+
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
+
+color_scheme: dark
 
 # Build settings
 # theme: just-the-docs
@@ -56,11 +66,33 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-defaults:
-  - scope:
-      path: "docs" # an empty string here means all files in the project
-      type: "pages"
-    values:
-      layout: "default"
-
-color_scheme: dark
+exclude:
+  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # specific to the theme website:
+  - bin/
+  - lib/
+  - "*.gemspec"
+  - "*.gem"
+  - LICENSE.txt
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - docker-compose.yml
+  - Dockerfile
+  # theme test code
+  - fixtures/
+  - spec/
+  - tmp
+  - .rspec
