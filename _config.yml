@@ -2,10 +2,10 @@ title: PixoVR Documentation
 description: PixoVR Documentation
 theme: just-the-docs
 
-url: https://chagrins.github.io/ExamplePage/ # the base hostname & protocol for your site, e.g. http://example.com
+url: https://pixovr.github.io/sdk-docs/ # the base hostname & protocol for your site, e.g. http://example.com
 
 aux_links:
-  Template Repository: https://github.com/Chagrins/ExamplePage/
+  Template Repository: https://github.com/PixoVR/SDK-docs/
 
 defaults:
   - scope:

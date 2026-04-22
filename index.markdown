@@ -9,5 +9,5 @@ permalink: /
 # PixoVR Documentation!
 {: .fs-9 }
 
-Get your project connect to the PixoVR Platform!
+Get your project connected to the PixoVR Platform!
 {: .fs-6 .fw-300 }
